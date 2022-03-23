@@ -1,4 +1,5 @@
 #include "ArtificialPet.h"
+#include <iostream>
 
 ArtificialPet::ArtificialPet() {
     fullnessLvl = 0;
@@ -19,6 +20,6 @@ void ArtificialPet::feed() {
         return;
     }
 
-    int increase = (10 - fullnessLvl)/2 + 1;
+    int increase = (10 - fullnessLvl) /2 + 1;
     fullnessLvl += increase;
 }

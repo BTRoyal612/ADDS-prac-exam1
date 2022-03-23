@@ -28,4 +28,9 @@ int main(void) {
     cout << "play" << endl;
     cout << bao->getFullness() << endl;
     cout << bao->isHungry() << endl;
+
+    bao->feed();
+    cout << "feed" << endl;
+    cout << bao->getFullness() << endl;
+    cout << bao->isHungry() << endl;
 }
